@@ -55,16 +55,7 @@ void max2(double * tabPoczatek, double * tabKoniec) {
 }
 */
 
-/* ZAD 2
-int sumuj(int liczba) {
-	if (liczba == 1) {
-		return 1;
-	} else {
-		return liczba + sumuj(liczba - 1);
-	}
-}
-*/
-
+/* ZAD 2 */
 //w pliku jest 1
 void odwroc(string &napis) {
 	reverse(napis.begin(), napis.end());
@@ -93,6 +84,16 @@ void pierwsze(string &napis) {
 	napis.erase(3, napis.length());
 	cout << "3 pierwsze = " << napis << endl;
 }
+
+/* ZAD 3
+int sumuj(int liczba) {
+	if (liczba == 1) {
+		return 1;
+	} else {
+		return liczba + sumuj(liczba - 1);
+	}
+}
+*/
 
 int main(void) {
 	/* ZAD 1
