@@ -1,0 +1,1 @@
+majn.d: ../majn.cpp
