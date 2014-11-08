@@ -5,6 +5,7 @@
 
 using namespace std;
 
+/* ZAD 1
 void pisz(double *tab, int wielkosc) {
 	cout << endl << "Tablica = ";
 	for (int i = 0; i < wielkosc; i++) {
@@ -52,7 +53,9 @@ void max2(double * tabPoczatek, double * tabKoniec) {
 	}
 	cout << max << endl;
 }
+*/
 
+/* ZAD 2
 int sumuj(int liczba) {
 	if (liczba == 1) {
 		return 1;
@@ -60,6 +63,7 @@ int sumuj(int liczba) {
 		return liczba + sumuj(liczba - 1);
 	}
 }
+*/
 
 //w pliku jest 1
 void odwroc(string &napis) {
