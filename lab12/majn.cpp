@@ -5,6 +5,7 @@ using namespace std;
 int main(void) {
 	TablicaAsoc<string, string> t1;
 	t1["d"] = "napis 1";
+	t1["d"] = "napis 4";
 	t1["e"] = "napis 2";
 	t1["fff"] = "napis 3";
 	t1.show();

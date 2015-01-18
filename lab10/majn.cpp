@@ -28,12 +28,6 @@ int main(void) {
 	SamochodDostawczy samochodDostawczy;
 	SamochodOsobowy samochodOsobowy;
 
-//	pojazd.info();
-//	rower.info();
-//	rowerGorski.info();
-//	samochod.info();
-//	samochodDostawczy.info();
-//	samochodOsobowy.info();
 	informacja1(rower);
 	informacja2(rower);
 	informacja3(&rower);
