@@ -10,6 +10,9 @@ private:
 	int liczbaPrzerzutek;
 
 public:
+	Rower(const double &maksymalnaPredkosc, const int &maksLiczbaPasazerow, int liczbaPrzerzutek);
+	Rower();
+	~Rower();
 	virtual void info();
 	void setIloscPrzerzutek(double iloscPrzerzutek) {
 		this->liczbaPrzerzutek = iloscPrzerzutek;

@@ -10,6 +10,9 @@ private:
 	int maksLiczbaPasazerow;
 
 public:
+	Pojazd(double maksymalnaPredkosc, int maksLiczbaPasazerow);
+	Pojazd();
+	~Pojazd();
 	virtual void info();
 
 	void setMaxPredkosc(double maxPredkosc) {

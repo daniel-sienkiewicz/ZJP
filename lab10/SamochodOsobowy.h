@@ -7,6 +7,8 @@
 using namespace std;
 class SamochodOsobowy : public Samochod{
 public:
+	SamochodOsobowy();
+	~SamochodOsobowy();
 	virtual void info();
 };
 

@@ -8,6 +8,8 @@ using namespace std;
 class RowerGorski : public Rower{
 
 public:
+	RowerGorski();
+	~RowerGorski();
 	virtual void info();
 };
 

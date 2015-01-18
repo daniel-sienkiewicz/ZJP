@@ -10,6 +10,9 @@ private:
 	double maksMasaZaladunku;
 
 public:
+	SamochodDostawczy();
+	SamochodDostawczy(const double &pojemnoscSilnika, const double maksMasaZaladunku);
+	~SamochodDostawczy();
 	virtual void info();
 	void setMaxZaladunek(double maxZaladunek){
 		this->maksMasaZaladunku = maxZaladunek;

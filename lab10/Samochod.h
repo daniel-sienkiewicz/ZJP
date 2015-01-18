@@ -10,6 +10,10 @@ private:
 	double pojemnoscSilnika;
 
 public:
+	Samochod();
+	Samochod(double pojemnoscSilnika);
+	Samochod(const double &maksymalnaPredkosc, const int &maksLiczbaPasazerow, double pojemnoscSilnika);
+	~Samochod();
 	virtual void info();
 
 	void setPojemnoscSilnika(double pojemnoscSilnika){
